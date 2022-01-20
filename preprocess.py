@@ -14,7 +14,7 @@ def main():
         li.append(df)
 
     df = pd.concat(li, axis=0, ignore_index=True)
-    #df = pd.read_parquet("data_17_08\COVID_Cases_Restricted_Detailed_08172021_Part_1.parquet")
+    #df = pd.read_parquet("data.parquet")
 
     #visualize the missing data
     msno.matrix(df)
